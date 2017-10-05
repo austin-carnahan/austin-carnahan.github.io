@@ -216,8 +216,8 @@ var projects = {
       "title": "Negihborhood Map",
       "dates": "2017",
       "description": "Single page responsive application built with Knockout.js framework. Developed a searchable full page map with popular locations in Fox Park. User can view recent pictures and ratings retrieved via AJAX request to Foursquare API",
-      "images": ["images/mapproj.jpg"],
-      "url": ""
+      "images": ["images/map2.jpg"],
+      "url": "https://racoonmoonswoon.github.io/neighoordhoodMap/"
     },
     {
       "title": "TreeTalk",
@@ -231,20 +231,30 @@ var projects = {
       "dates": "2017",
       "description": "HTML Canvas clone of classic game frogger. Images and game engine provided by Udacity. Coded player, enemy and other game objects in JavaScript’s object-oriented pseudo-classical style. It's fun to play, I promise!",
       "images": ["images/bugrun.jpg"],
-      "url": ""
+      "url": "https://racoonmoonswoon.github.io/bugrun/"
     },
     {
-      "title": "Sample Project 4",
+      "title": "Bike Share Neural Network",
       "dates": "2017",
-      "description": "Sample description 4. blah la lalalalalalla booo looo poo",
-      "images": ["images/fry.jpg"]
+      "description": "A simple neural network using python and jupyter notebooks that predicts usage volume and times for a bike sharing co-op.",
+      "images": ["images/nNetwork.jpg"],
+      "url":""
     },
     {
-      "title": "Sample Project 5",
+      "title": "BookStore Inventory DB",
       "dates": "2017",
-      "description": "Sample description 5. blah la lalalalalalla booo looo poo",
-      "images":["images/fry.jpg"]
+      "description": "A multi-page Java web application built using Servlets, JSP, and MySQL. Simulates inventory management of multiple bookstore locations.",
+      "images":["images/booksDB.jpg"],
+      "url":"https://github.com/racoonmoonswoon/booksDB"
+    },
+    {
+      "title": "Credit Card Simulator",
+      "dates": "2017",
+      "description": "A Java Web Application built using Servlets and JSP. Simulates basic credit card transactions for multiple accounts such as posting charges and payments, interest fees, and displays history.",
+      "images":["images/ccSim.jpg"],
+      "url":"https://github.com/racoonmoonswoon/CreditCardSim"
     }
+
   ],
 
   display: function getProjects() {
