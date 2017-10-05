@@ -2,14 +2,13 @@ var bio = {
   "name" : "Austin Carnahan",
   "role" : "Web Developer",
   "contacts" : {
-    "mobile" : "314-111-1111",
-    "email" : "ac1114@gmail.com",
-    "github" : "racoonmoonswoon",
+    "mobile" : "314-971-3112",
+    "email" : "ac6404@gmail.com",
+    "github" : "github.com/racoonmoonswoon",
     "linkedIn" : "linkedin.com/in/austincarnahan",
     "location" : "Saint Louis, MO"
   },
-  "welcomeMessage" : "Welcome to my interactive resume! This is an experiment " +
-  "in front-end web development!",
+  "welcomeMessage" : "I am a self-taught web developer passionate about crafting intuitive, simple, and functional web-based applications and services. I believe in leveraging technology to improve the delivery of essential civil services, empower social impact organizations, and increase equity, access, and stewardship of common goods resources.",
   "skills" : [
     "Data analysis", "Core Java", "Web Development", "Making things work better"
   ],
@@ -89,16 +88,16 @@ var education = {
   ],
   "onlineCourses" : [
     {
-      "title": "Front End Web Development Nano-Degree",
+      "title": "Front End Web Development Nanodegree",
       "school": "Udacity",
-      "dates" : "May 2017",
+      "dates" : "September 2017",
       "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
     },
     {
-      "title": "Deep Learning Foundations Nano-Degree",
+      "title": "Intro to Progressive Web Applications",
       "school": "Udacity",
-      "dates" : "July 2017",
-      "url": "https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101"
+      "dates" : "October 2017",
+      "url": ""
 
     },
     {
@@ -159,18 +158,18 @@ var education = {
 var work = {
   "jobs": [
     {
-      "employer": "International Institute Comunity Development Corporation",
-      "title": "Special Projects Coordinator",
+      "employer": "Code For The People",
+      "title": "Project Outreach and Team Lead",
       "location" : "Saint Louis, MO",
-      "dates": "June 2016 - November 2016",
-      "description": "Developed and taught Supporting Entrepreneurship for Immigrants (SEFI) business training program to over 10 immigrant entrepreneurs.Developed Accounting and Computer Training (ACT) program for immigrant business owners. Served as agency liaison to the St. Louis Regional Chamber of Commerce,United Way IDA Partners, and St. Louis Economic Development Partnership."
+      "dates": "May 2017 - Current",
+      "description": "Lead collaboration between partner organizations and volunteer dev teams focused on creating software and tools to empower social and progressive causes, community organizations, and the digitization of government services."
     },
     {
-      "employer" : "International Institute of Saint Louis",
+      "employer" : "International Institute Refugee Services",
       "title" : "Economic Development AmeriCorps",
       "location" : "Saint Louis, MO",
       "dates" : "August 2015 - June 2016",
-      "description" : "Managed individual development savings accounts for over 100 clients. Conducted monthly accounting, data and impact analysis for $500,000 grant. Prototyped dashboards and visualization tools for business intelligence. Provided small business technical assistance to immigrant entrepreneurs."
+      "description" : "Prototyped dashboards and visualization tools for business intelligence. Provided small business technical assistance to refugee entrepreneurs. Advocated for and tested agency-wide technology solutions. Led efforts to push new software adoption, data-fluency, and strategic processes."
     },
     {
       "employer": "JB Web Analytics",
@@ -214,22 +213,25 @@ var work = {
 var projects = {
   "projects": [
     {
-      "title": "Sample Project 1",
+      "title": "Negihborhood Map",
       "dates": "2017",
-      "description": "Sample description. blah la lalalalalalla booo looo poo",
-      "images": ["images/fry.jpg"]
+      "description": "Single page responsive application built with Knockout.js framework. Developed a searchable full page map with popular locations in Fox Park. User can view recent pictures and ratings retrieved via AJAX request to Foursquare API",
+      "images": ["images/mapproj.jpg"],
+      "url": ""
     },
     {
-      "title": "Sample Project 2",
+      "title": "TreeTalk",
       "dates": "2017",
-      "description": "Sample description 2. blah la lalalalalalla booo looo poo",
-      "images": ["images/fry.jpg"]
+      "description": "Contributor to open source progressive web app built with React.js. Tree Talk is a platform to explore and discover locally sourced environmental science, creative calls-to-action, and fun ideas for growing a more vibrant community.",
+      "images": ["images/treetalksketch.jpg"],
+      "url": "https://github.com/treetalk/treetalk.github.io"
     },
     {
-      "title": "Sample Project 3",
+      "title": "Bug Run/Frogger Clone",
       "dates": "2017",
-      "description": "Sample description 3. blah la lalalalalalla booo looo poo",
-      "images": ["images/fry.jpg"]
+      "description": "HTML Canvas clone of classic game frogger. Images and game engine provided by Udacity. Coded player, enemy and other game objects in JavaScript’s object-oriented pseudo-classical style. It's fun to play, I promise!",
+      "images": ["images/bugrun.jpg"],
+      "url": ""
     },
     {
       "title": "Sample Project 4",
