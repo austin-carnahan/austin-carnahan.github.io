@@ -238,7 +238,7 @@ var projects = {
       "dates": "2017",
       "description": "A simple neural network using python and jupyter notebooks that predicts usage volume and times for a bike sharing co-op.",
       "images": ["images/nNetwork.jpg"],
-      "url":""
+      "url":"https://racoonmoonswoon.github.io/dlnd_firstnn/"
     },
     {
       "title": "BookStore Inventory DB",
