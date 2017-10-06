@@ -168,6 +168,15 @@ img {
   padding: 10px;
 }
 
+.projPhoto{
+  height: 400px;
+  width: 340px;
+}
+
+.projTitle{
+  text-align: center;
+}
+
 span {
   padding: 5px;
 }
