@@ -234,7 +234,7 @@ var projects = {
     {
       "title": "TreeTalk",
       "dates": "2017",
-      "description": "Contributor to open source <strong>progressive web app</strong> built with <strong>React.js</strong>. Tree Talk is a platform to explore and discover locally sourced environmental science, creative calls-to-action, and fun ideas for growing a more vibrant community.",
+      "description": "Contributor to open source <strong>progressive web app</strong> built with <strong>React.js</strong>. Tree Talk is a platform to explore locally sourced environmental science, creative calls-to-action, and fun ideas for growing a more vibrant community.",
       "images": ["images/treetalksketch.jpg"],
       "url": "https://github.com/treetalk/treetalk.github.io"
     },
