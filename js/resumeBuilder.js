@@ -9,9 +9,9 @@ var bio = {
     "location" : "Saint Louis, MO"
   },
   "welcomeMessage" : "I am a self-taught web developer passionate about crafting intuitive, simple, and functional web-based applications and services. I believe in leveraging technology to improve the delivery of essential civil services, empower social impact organizations, and increase equity, access, and stewardship of common goods resources.",
-  "skills" : [
-    "Data analysis", "Core Java", "Web Development", "Making things work better"
-  ],
+  "languages" : ["Javascript, HTML, CSS, Java (JSP & Servlets), MySQL"],
+  "frameworks" : ["JQuery, Knockout.js (MVVM), Bootstrap, Jasmine"],
+  "other" : ["Git/Github, Website Optimization, Progressive Web Apps, Grunt"],
   "biopic" : "images/tuxshot.jpg",
 
   display: function getBio(){
@@ -48,10 +48,10 @@ var bio = {
       $("#topContacts, #footerContacts").append(formattedLinkedin);
     }
     //location
-    if(bio.contacts.location.length > 0){
-      var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-      $("#topContacts, #footerContacts").append(formattedLocation);
-    }
+    // if(bio.contacts.location.length > 0){
+    //   var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+    //   $("#topContacts, #footerContacts").append(formattedLocation);
+    // }
     //display pic
     if(bio.biopic.length > 0){
       var formattedPic = HTMLbioPic.replace("%data%", bio.biopic);
@@ -63,13 +63,21 @@ var bio = {
       $("#header").append(formattedMessage);
     }
     //display skills
-    if(bio.skills.length > 0){
+    if(bio.languages.length > 0){
       $("#header").append(HTMLskillsStart);
 
       //for(var skill in bio.skills){
-      bio.skills.forEach(function(skill){
-        var formattedSkill = HTMLskills.replace("%data%", skill);
-        $("#skills").append(formattedSkill);
+      bio.languages.forEach(function(language){
+        var formattedlang = HTMLlanguages.replace("%data%", language + ", ");
+        $("#skills").append(formattedlang);
+      });
+      bio.frameworks.forEach(function(framework){
+        var formattedframe = HTMLframeworks.replace("%data%", framework);
+        $("#skills").append(formattedframe);
+      });
+      bio.other.forEach(function(other){
+        var formattedother = HTMLother.replace("%data%", other);
+        $("#skills").append(formattedother);
       });
     }
   }
@@ -162,6 +170,7 @@ var work = {
       "title": "Project Outreach and Team Lead",
       "location" : "Saint Louis, MO",
       "dates": "May 2017 - Current",
+      "url": "https://www.meetup.com/Code-for-the-People/",
       "description": "Lead collaboration between partner organizations and volunteer dev teams focused on creating software and tools to empower social and progressive causes, community organizations, and the digitization of government services."
     },
     {
@@ -169,6 +178,7 @@ var work = {
       "title" : "Economic Development AmeriCorps",
       "location" : "Saint Louis, MO",
       "dates" : "August 2015 - June 2016",
+      "url": "https://www.iistl.org/",
       "description" : "Prototyped dashboards and visualization tools for business intelligence. Provided small business technical assistance to refugee entrepreneurs. Advocated for and tested agency-wide technology solutions. Led efforts to push new software adoption, data-fluency, and strategic processes."
     },
     {
@@ -176,6 +186,7 @@ var work = {
       "title": "Online Marketing & SEO Strategist",
       "location" : "Kirksville, MO",
       "dates": "August 2011 - October 2012",
+      "url": "https://jbwebanalytics.com/",
       "description": "Conducted SEO analysis using Google Keywords and Open Site Explorer. Managed content marketing strategies and copywriting. Researched rank checking of websites and competitors."
     },
     {
@@ -183,6 +194,7 @@ var work = {
       "title": "Congressional Intern",
       "location" : "Washington D.C.",
       "dates": "June 2010 - August 2010",
+      "url": "https://naturalresources.house.gov/indianinsularandalaskanativeissues/",
       "description": "Coordinated inter-agency coalition focused on improving ultra-low sulphur diesel infrastructure development for U.S. Territories. Advocated for the inclusion of U.S. Territories in relevant legislation."
     }
   ],
@@ -193,7 +205,7 @@ var work = {
     work.jobs.forEach(function(job){
       $("#workExperience").append(HTMLworkStart);
 
-      var formattedEmployer = HTMLworkEmployer.replace("%data%", job.employer);
+      var formattedEmployer = HTMLworkEmployer.replace("%data%", job.employer).replace("#", job.url);
       //concatenate employer and title. append to html
       var formattedTitle = HTMLworkTitle.replace("%data%", job.title);
       var formattedEmployerTitle = formattedEmployer + formattedTitle;
@@ -308,7 +320,9 @@ var projects = {
 
       var slideID2 = ".slide" + slidenumber.toString(); //for selecting slide
 
-      $(slideID2).append(HTMLprojectStart);
+      var formattedProj = HTMLprojectStart.replace("%data%", project.url);
+
+      $(slideID2).append(formattedProj);
       //insert image
       project.images.forEach(function(image){
       var formattedImage = HTMLprojectImage.replace("%data%", image);
