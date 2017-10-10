@@ -4,7 +4,7 @@ var bio = {
   "contacts" : {
     "mobile" : "314-971-3112",
     "email" : "ac6404@gmail.com",
-    "github" : "github.com/racoonmoonswoon",
+    "github" : "github.com/austin-carnahan",
     "linkedIn" : "linkedin.com/in/austincarnahan",
     "location" : "Saint Louis, MO"
   },
@@ -12,7 +12,7 @@ var bio = {
   "languages" : ["Javascript, HTML, CSS, Java (JSP & Servlets), MySQL"],
   "frameworks" : ["JQuery, Knockout.js (MVVM), Bootstrap, Jasmine"],
   "other" : ["Git/Github, Website Optimization, Progressive Web Apps, Grunt"],
-  "biopic" : "images/tuxshot.jpg",
+  "biopic" : "images/wave.png",
 
   display: function getBio(){
 
@@ -229,7 +229,7 @@ var projects = {
       "dates": "2017",
       "description": "Single page responsive map built with <strong>Knockout.js</strong> framework. User can view recent pictures and ratings of attractions in Fox Park retrieved via <strong>AJAX</strong> request to <strong>Foursquare API</strong> and explore using <strong>Google Streetview API</strong>",
       "images": ["images/map2.jpg"],
-      "url": "https://racoonmoonswoon.github.io/neighoordhoodMap/"
+      "url": "https://austin-carnahan.github.io/neighoordhoodMap/"
     },
     {
       "title": "TreeTalk",
@@ -243,28 +243,28 @@ var projects = {
       "dates": "2017",
       "description": "<strong>HTML5 Canvas</strong> clone of classic game frogger. Images and game engine provided by Udacity. Coded player, enemy and other game objects in <strong>JavaScript</strong>’s object-oriented pseudo-classical style. It's fun to play!",
       "images": ["images/bugrun.jpg"],
-      "url": "https://racoonmoonswoon.github.io/bugrun/"
+      "url": "https://austin-carnahan.github.io/bugrun/"
     },
     {
       "title": "Bike Share Neural Network",
       "dates": "2017",
       "description": "A simple <strong>neural network</strong> using <strong>python</strong> and <strong>jupyter notebooks</strong> that predicts usage volume and times for a bike sharing co-op.",
       "images": ["images/nNetwork.jpg"],
-      "url":"https://racoonmoonswoon.github.io/dlnd_firstnn/"
+      "url":"https://austin-carnahan.github.io/dlnd_firstnn/"
     },
     {
       "title": "BookStore Inventory DB",
       "dates": "2017",
       "description": "A multi-page <strong>Java</strong> web application built using <strong>Servlets</strong>, <strong>JSP</strong>, and <strong>MySQL</strong>. Simulates inventory management of multiple bookstore locations.",
       "images":["images/booksDB.jpg"],
-      "url":"https://github.com/racoonmoonswoon/booksDB"
+      "url":"https://github.com/austin-carnahan/booksDB"
     },
     {
       "title": "Credit Card Simulator",
       "dates": "2017",
       "description": "A <strong>Java</strong> Web Application built using <strong>Servlets</strong> and <strong>JSP</strong>. Simulates basic credit card transactions for multiple accounts such as posting charges and payments, interest fees, and displays history.<br><br>",
       "images":["images/ccSim.jpg"],
-      "url":"https://github.com/racoonmoonswoon/CreditCardSim"
+      "url":"https://github.com/austin-carnahan/CreditCardSim"
     }
 
   ],
