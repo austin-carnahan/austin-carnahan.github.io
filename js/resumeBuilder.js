@@ -215,7 +215,7 @@ var work = {
       var formattedDates = HTMLworkDates.replace("%data%", job.dates);
       $(".work-entry:last").append(formattedDates);
 
-      var formattedDesc = HTMLworkDescription.replace("%data", job.description);
+      var formattedDesc = HTMLworkDescription.replace("%data%", job.description);
       $(".work-entry:last").append(formattedDesc);
 
     });
