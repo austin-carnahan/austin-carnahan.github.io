@@ -2,7 +2,7 @@ var bio = {
   "name" : "Austin Carnahan",
   "role" : "Web Developer",
   "contacts" : {
-    "mobile" : "314-971-3112",
+    "mobile" : "N/A",
     "email" : "ac6404@gmail.com",
     "github" : "github.com/austin-carnahan",
     "linkedIn" : "linkedin.com/in/austincarnahan",
